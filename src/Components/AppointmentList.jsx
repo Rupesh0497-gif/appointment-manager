@@ -30,7 +30,7 @@ const AppointmentList = ({
 	};
 
 	return (
-		<div className="row">
+		<div className="">
 			<h1>Appointment List</h1>
 			<table id="list">
 				<thead>

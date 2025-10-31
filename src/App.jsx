@@ -32,8 +32,8 @@ const App = () => {
 	};
 
 	return (
-      <div className="container mx-auto p-4">
-			<h1 className="mx-auto text-center text-green-700">Appointment Management System</h1>
+      <div className="" style={{width: '40%', margin: '0 auto'}}>
+			<h1 className="" style={{ textAlign:'center', margin: '20px 0'}}>Appointment Management System</h1>
 			<AppointmentForm addAppointment={addAppointment} />
 			<AppointmentList
 				appointments={appointments}

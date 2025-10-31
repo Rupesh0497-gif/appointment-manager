@@ -16,11 +16,11 @@ const AppointmentForm = ({ addAppointment }) => {
 	return (
 		<div class="form-container">
 			<form onSubmit={handleSubmit}>
-				<div class="grid grid-cols-4">
-					<div class="col-span-4">
+				<div class="" style={{display:'flex', margin: '20px 0'}}>
+					<div class="" style={{width: '50%'}}>
 						<label for="fname">Full Name</label>
 					</div>
-					<div class="col-span-8">
+					<div class="" style={{width: '50%'}}>
 						<input
 							type="text"
 							id="fname"
@@ -31,11 +31,11 @@ const AppointmentForm = ({ addAppointment }) => {
 						/>
 					</div>
 				</div>
-				<div class="row">
-					<div class="col-25">
-						<label for="fname">Appointment Date: </label>
+				<div class="" style={{display:'flex', margin: '20px 0'}}>
+					<div class="" style={{width: '50%'}}>
+						<label for="fname" >Appointment Date: </label>
 					</div>
-					<div class="col-75">
+					<div class="" style={{width: '50%'}}>
 						<input
 							id="fname"
 							name="firstname"
@@ -46,7 +46,7 @@ const AppointmentForm = ({ addAppointment }) => {
 						/>
 					</div>
 				</div>
-				<div class="row">
+				<div class="">
 					<input type="submit" value="Add Appointment" />
 				</div>
 			</form>
